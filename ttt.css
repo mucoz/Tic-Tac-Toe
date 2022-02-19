@@ -33,8 +33,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgb(201, 223, 241);
+    transition: background-color 1s ease-out 50ms
 }
-
+.tile:hover{
+    background-color: rgb(98, 176, 240);
+}
 .horizontal-line {
     border-bottom: 3px solid black;
 }
@@ -44,11 +48,11 @@ button {
 }
 
 .X {
-    background-color: lightgray;
+    background-color: rgb(98, 176, 240);
     color: rgb(13, 235, 68);
 }
 
 .O{
-    background-color: lightgray;
+    background-color: rgb(98, 176, 240);
     color: blueviolet;
 }
