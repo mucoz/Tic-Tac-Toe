@@ -1,0 +1,54 @@
+body {
+    font-family: 'Pricedown Bl', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin: 60px auto;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin:20px auto;
+    
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#info {
+    margin-top: 40px;
+}
+
+.tile {
+    width: 148px;
+    height: 148px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid black;
+}
+
+.X {
+    background-color: lightgray;
+    color: rgb(13, 235, 68);
+}
+
+.O{
+    background-color: lightgray;
+    color: blueviolet;
+}
