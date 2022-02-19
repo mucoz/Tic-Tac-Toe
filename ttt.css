@@ -6,6 +6,7 @@ body {
 
 h1{
     margin: 60px auto;
+    color: rgb(242, 125, 253);
 }
 
 button {
@@ -25,6 +26,7 @@ button {
 
 #info {
     margin-top: 40px;
+    color: rgb(242, 125, 253);
 }
 
 .tile {
@@ -35,7 +37,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color:rgb(0,168,255);
-    transition: background-color 1s ease-out 50ms
+    transition: background-color 0.5s ease-out 50ms
 }
 .tile:hover{
     background-color: rgb(2,102,200);
